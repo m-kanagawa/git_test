@@ -1,0 +1,79 @@
+// ===================================================================
+// コンテンツエリア
+// ===================================================================
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.inner {
+	max-width: $base_width;
+	margin: auto;
+	@media only screen and (max-width: $base_width) {
+		padding-left: $content_space;
+		padding-right: $content_space;
+	}
+}
+
+.sec_top01 {
+	background-color: #fc9;
+	height: calc(100vh - 83px);
+}
+
+.sec_top_card {
+	padding: 100px 0;
+	.card_contents {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		.card_block {
+			padding: 10px;
+			margin: 0 30px 30px 0;
+			background-color: #dfdfdf;
+			border-radius: 4px;
+			width: calc(100% / 3 - 30px * 2 / 3);
+			&:nth-child(3n+3) {
+				margin-right: 0;
+			}
+			h3 {
+				margin: 20px 0;
+				font-weight: bold;
+			}
+		}
+	}
+	@media only screen and (max-width: $sp_width) {
+		padding: 50px 0;
+		.card_contents {
+			flex-direction: column;
+			padding-left: 15px;
+			padding-right: 15px;
+			.card_block {
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+h2 {
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+
+main {
+	overflow: hidden;
+	min-height: 1000px;
+}
+
+.footer {
+	background-color: #fc9;
+	height: calc(100vh - 83px);
+}
+
+
+//アニメーション
+

@@ -1,0 +1,172 @@
+// ===================================================================
+// 汎用
+// ===================================================================
+
+
+.btn01 {
+	a {
+		@include fz(16);
+		padding: 10px 36px;
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid #333;
+		-webkit-appearance: none;
+		color: #000;
+		-webkit-transition: background-color 0.35s,color 0.35s;
+		transition: background-color 0.35s,color 0.35s;
+		//border: 1px solid $main_color;
+		//cursor:pointer;
+		letter-spacing: 2px;
+		&:hover {
+			background: #333;
+			color: #fff;
+			-webkit-transition: background-color 0.35s,color 0.35s;
+			transition: background-color 0.35s,color 0.35s;
+			//border: 1px solid $main_color;
+		}
+	}
+}
+
+
+
+/*    decoration
+---------------------------------------------------- */
+.bold {font-weight:bold;}
+.underline {text-decoration: underline;}
+
+
+/*    hover
+---------------------------------------------------- */
+
+.mk {
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+.mk:hover {
+	opacity: 0.8;
+	filter: alpha(opacity=20);
+}
+
+/*    font-size
+---------------------------------------------------- */
+
+.fz16 {font-size: 16px; font-size: 1.6rem;}
+.fz18 {font-size: 18px; font-size: 1.8rem;}
+.fz22 {font-size: 22px; font-size: 2.2rem;}
+.fz25 {font-size: 25px; font-size: 2.5rem;}
+.fz28 {font-size: 28px; font-size: 2.8rem;}
+.fz64 {font-size: 64px; font-size: 6.4rem;}
+
+/*   clerfix
+---------------------------------------------------- */
+
+.clearfix {
+	*zoom: 1;
+	&:after {
+		content: ".";
+		display: block;
+		clear: both;
+		height: 0;
+		visibility: hidden;
+	}
+}
+/*   text
+---------------------------------------------------- */
+.ac {text-align: center !important;}
+.ar {text-align: right !important;}
+.al {text-align: left !important;}
+
+/*    float
+---------------------------------------------------- */
+.fr {float: right !important;}
+.fl {float: left !important;}
+.clear {clear: both;}
+.oh {overflow: hidden;}
+
+/*    margin
+---------------------------------------------------- */
+.mt00 { margin-top:  0px; }
+.mt05 { margin-top:  5px; }
+.mt10 { margin-top: 10px; }
+.mt13 { margin-top: 13px; }
+.mt15 { margin-top: 15px; }
+.mt20 { margin-top: 20px; }
+.mt25 { margin-top: 25px; }
+.mt30 { margin-top: 30px; }
+.mt35 { margin-top: 35px; }
+.mt40 { margin-top: 40px; }
+
+.mr00 { margin-right:  0px; }
+.mr05 { margin-right:  5px; }
+.mr10 { margin-right: 10px; }
+.mr15 { margin-right: 15px; }
+.mr20 { margin-right: 20px; }
+.mr25 { margin-right: 25px; }
+.mr30 { margin-right: 30px; }
+.mr35 { margin-right: 35px; }
+.mr40 { margin-right: 40px; }
+
+.mb00 { margin-bottom:  0px; }
+.mb05 { margin-bottom:  5px; }
+.mb10 { margin-bottom: 10px; }
+.mb15 { margin-bottom: 15px; }
+.mb20 { margin-bottom: 20px; }
+.mb25 { margin-bottom: 25px; }
+.mb30 { margin-bottom: 30px; }
+.mb35 { margin-bottom: 35px; }
+.mb40 { margin-bottom: 40px; }
+
+.ml00 { margin-left:  0px; }
+.ml05 { margin-left:  5px; }
+.ml10 { margin-left: 10px; }
+.ml15 { margin-left: 15px; }
+.ml20 { margin-left: 20px; }
+.ml25 { margin-left: 25px; }
+.ml30 { margin-left: 30px; }
+.ml35 { margin-left: 35px; }
+.ml40 { margin-left: 40px; }
+
+/*    padding
+---------------------------------------------------- */
+
+.pt00 { padding-top:  0px; }
+.pt05 { padding-top:  5px; }
+.pt10 { padding-top: 10px; }
+.pt15 { padding-top: 15px; }
+.pt20 { padding-top: 20px; }
+.pt25 { padding-top: 25px; }
+.pt30 { padding-top: 30px; }
+.pt35 { padding-top: 35px; }
+.pt40 { padding-top: 40px; }
+
+.pr00 { padding-right:  0px; }
+.pr05 { padding-right:  5px; }
+.pr10 { padding-right: 10px; }
+.pr15 { padding-right: 15px; }
+.pr20 { padding-right: 20px; }
+.pr25 { padding-right: 25px; }
+.pr30 { padding-right: 30px; }
+.pr35 { padding-right: 35px; }
+.pr40 { padding-right: 40px; }
+
+.pb00 { padding-bottom:  0px; }
+.pb05 { padding-bottom:  5px; }
+.pb10 { padding-bottom: 10px; }
+.pb15 { padding-bottom: 15px; }
+.pb20 { padding-bottom: 20px; }
+.pb25 { padding-bottom: 25px; }
+.pb30 { padding-bottom: 30px; }
+.pb35 { padding-bottom: 35px; }
+.pb40 { padding-bottom: 40px; }
+
+.pl00 { padding-left:  0px; }
+.pl05 { padding-left:  5px; }
+.pl10 { padding-left: 10px; }
+.pl15 { padding-left: 15px; }
+.pl20 { padding-left: 20px; }
+.pl25 { padding-left: 25px; }
+.pl30 { padding-left: 30px; }
+.pl35 { padding-left: 35px; }
+.pl40 { padding-left: 40px; }

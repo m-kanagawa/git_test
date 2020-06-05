@@ -1,0 +1,13 @@
+@charset "utf-8";
+// ===================================================================
+// 各SCSSファイルのインポート
+// ===================================================================
+
+@import "setting";     //設定用
+@import "reset";       // リセットCSS、フォントサイズ
+@import "mixin";       // ミックスイン、@extend、CSS3、凡用など
+
+@import "lo_module";   // レイアウト [header] [footer]　ヘッダー,フッター
+@import "lo_contents"; // レイアウト [contents]　コンテンツ
+
+@import "general";     // 汎用

@@ -1,0 +1,20 @@
+// ===================================================================
+// mixinやらCSS3やら、extendも。
+// ===================================================================
+
+
+
+@mixin linkColor($color) {
+	color: $color;
+	&:hover, &:active, &:focus {
+		color: lighten($color, 20%);
+	}
+}
+// fontサイズ
+@mixin fz($fz) {
+	font-size: $fz + px;
+	font-size: ($fz / 10) * 1rem;
+}
+
+
+

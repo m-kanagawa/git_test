@@ -1,0 +1,64 @@
+@charset "utf-8";
+// ===================================================================
+// 設定
+// ===================================================================
+
+//アイコンフォント読み込み
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+//Googlefont
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700,900&display=swap&subset=japanese');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+
+// ======== fonts
+$base_font_size: 16; // px
+
+// base
+$font_base_gothic: "Noto Sans JP", "-apple-system", BlinkMacSystemFont, "Helvetica Neue", Roboto, "Droid Sans", Arial, "Yu Gothic", YuGothic, Meiryo, sans-serif;
+
+$yugo_font: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+
+// 明朝
+$font_base_mincho: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+
+$base_font_family: $font_base_gothic;
+
+$eng_font: 'Ubuntu', sans-serif;
+
+//レスポンシブ時の左右のスペース
+$content_space: 0px;
+
+//-----------------------サイズ--------------------------
+
+// ページ全体の横幅
+$base_width: 1000px;
+// スマホ表示幅
+$sp_width: 768px;
+$tb_width: 1024px;
+
+$base_color: #fff;		// ベースカラー
+$main_color: #3b4656;	// メインカラー
+$sub_color: #808080;			//サブカラー
+$accent_color: #ff7011;// アクセントカラー
+$txt_color: #434343;	//テキストカラー
+
+$btn_txt_color: #fff;  //テキストカラー
+$btn_color: $main_color;  //テキストカラー
+
+$body_color: $base_color;
+$nav_color_bg: $main_color;   //グローバルナビゲーション　*グラデーション時は直接記述
+$nav_color_link: $txt_color; // Gナビリンクカラー
+$nav_color_link_hover: $nav_color_link; // Gナビリンクカラー(ホバー)
+$nav_color_bef: #ccc; // Gナビリンクカラー(ホバー)
+
+
+$bg_white: #fff;
+$bg_gray: #efefef;
+$bg_pink: #ffe1e1;
+$bg_blue: #e8e9ff;
+$bg_green: #edffe8;
+
+a {text-decoration: none;}
+// a:link {}
+// a:visited {}
+a:hover {text-decoration: none;}
+// a:active {}
